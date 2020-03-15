@@ -7,13 +7,9 @@ from getpass import getpass
 '''  Directly backups all databases with compression '''
 
 
-#user = input('User for database >> ')
-#password = getpass('Password for database >>')
-#host = input('Host for database >> ')
-
-user = "root"
-password = "samet"
-host = "localhost"
+user = input('User for database >> ')
+password = getpass('Password for database >>')
+host = input('Host for database >> ')
 
 DB_HOST = host
 DB_USER = user
